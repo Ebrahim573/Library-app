@@ -12,11 +12,8 @@ export class BooksComponent implements OnInit {
 
   books=[{
 
-    code:"",
-    bookname:"",
     author:"",
-    edition:"",
-    rating:"",
+    bookname:"",
     imageurl:"",
 
   }]
@@ -38,7 +35,7 @@ export class BooksComponent implements OnInit {
       this.books=this.books.filter(p=>p!==item)
     })
     }
-      
+
   }
 
 

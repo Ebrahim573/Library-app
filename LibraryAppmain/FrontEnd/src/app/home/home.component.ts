@@ -12,11 +12,8 @@ export class HomeComponent implements OnInit {
 
   books=[{
 
-    code:"",
-    bookname:"",
     author:"",
-    edition:"",
-    rating:"",
+    bookname:"",
     imageurl:"",
 
   }]

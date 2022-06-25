@@ -1,14 +1,13 @@
 .formbody {
     min-height: 550px;
     background-color: rgba(255, 228, 196, 0.72);
-    background-image: url('https://images.unsplash.com/photo-1521587760476-6c12a4b040da?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Ym9vayUyMGJhY2tncm91bmR8ZW58MHx8MHx8&w=1000&q=80');
+    background-image: url('https://images.unsplash.com/photo-1532012197267-da84d127e765?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8NXx8fGVufDB8fHx8&w=1000&q=80');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
 }
 
 .formitem {
-    /* border: 2px solid white; */
     margin: 15px;
     margin-top: 10vh;
     margin-bottom: 10vh;

@@ -10,13 +10,10 @@ export class BookviewComponent implements OnInit {
 
   books={
 
-    code:"",
-    bookname:"",
     author:"",
-    edition:"",
-    rating:"3.4",
+    bookname:"",
     imageurl:"",
-    description:""
+    synopsis:""
 
   }
 

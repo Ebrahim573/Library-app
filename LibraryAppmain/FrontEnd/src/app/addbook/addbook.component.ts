@@ -13,13 +13,10 @@ export class AddbookComponent implements OnInit {
 
   books={
 
-    code:"",
-    bookname:"",
     author:"",
-    edition:"",
-    rating:"",
+    bookname:"",
     imageurl:"",
-    description:""
+   synopsis:""
 
   }
 
@@ -30,7 +27,7 @@ export class AddbookComponent implements OnInit {
         this.bookservice.addbook(this.books)
         .subscribe((data)=>{
           console.log(data);
-          
+
         })
         this.route.navigate(['/books'])
   }

@@ -1,32 +1,33 @@
-.homebody{
+.homebody {
     min-height: 600px;
-    background-color: rgba(255, 228, 196, 0.72);
-    background-image: url('https://wallpaperaccess.com/full/3133075.jpg');
+    background-color: rgba(210, 255, 196, 0.72);
+    background-image: url('https://images.unsplash.com/photo-1532012197267-da84d127e765?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8NXx8fGVufDB8fHx8&w=1000&q=80');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
 }
-.tableitem{
+
+.tableitem {
     margin-top: 10vh;
     margin-bottom: 10vh;
 }
-.color1{
-    color: blue;
+
+.color1 {
+    color: rgba(89, 0, 255, 0.689);
     cursor: pointer;
 }
-.color2{
+
+.color2 {
     color: red;
     cursor: pointer;
-
 }
 
 @media only screen and (max-width: 550px) {
-    .invisible22{
-        display:none;
+    .invisible22 {
+        display: none;
     }
-  }
+}
 
-  table{
-    font-family: 'Comic Neue', cursive;
-  }
-
+table {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
