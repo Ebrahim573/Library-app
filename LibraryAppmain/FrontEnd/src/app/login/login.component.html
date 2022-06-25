@@ -1,0 +1,49 @@
+<div class="container">
+    <div class="screen">
+        <div class="screen__content">
+
+            <form class="login " #form="ngForm" (ngSubmit)="form.valid&&loginuser()">
+                <h3 class="text-center mb-4">Login</h3>
+                <div class="login__field ">
+                    <i class="login__icon fas fa-user"></i>
+                    <input type="text " class="login__input" placeholder="Username" required #username="ngModel" name="username" [(ngModel)]="user.username">
+                    <small class="text-danger" *ngIf="form.submitted&&username.errors?.['required']">*Enter Username</small>
+                </div>
+                <div class="login__field ">
+                    <i class="login__icon fas fa-lock "></i>
+                    <input type="password" class="login__input" placeholder="Password" required #password="ngModel" name="password" [(ngModel)]="user.password">
+                    <small class="text-danger" *ngIf="form.submitted&&password.errors?.['required']">*Enter Password</small>
+                </div>
+
+                <button class="button login__submit ">Log In Now
+
+        <i class="button__icon fas fa-chevron-right "></i>
+      </button><br>
+
+                <div class="text-center fs-6 ">
+                    <a routerLink="/login ">Forgot password?</a>
+                </div>
+                <div class="text-center mt-4">
+                    <p>Not a member? <a routerLink="/signup">Sign up</a></p>
+                </div>
+            </form>
+
+            <div class="social-login ">
+                <h3>Login via</h3>
+                <div class="social-icons ">
+                    <a routerLink="# " class="social-login__icon fab fa-instagram "></a>
+                    <a routerLink="# " class="social-login__icon fab fa-facebook "></a>
+                    <a routerLink="# " class="social-login__icon fab fa-twitter "></a>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="screen__background ">
+            <span class="screen__background__shape screen__background__shape4 "></span>
+            <span class="screen__background__shape screen__background__shape3 "></span>
+            <span class="screen__background__shape screen__background__shape2 "></span>
+            <span class="screen__background__shape screen__background__shape1 "></span>
+        </div>
+    </div>
+</div>

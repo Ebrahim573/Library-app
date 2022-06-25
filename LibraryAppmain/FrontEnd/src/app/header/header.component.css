@@ -1,0 +1,13 @@
+.background {
+    background-color: rgba(180, 149, 66, 0.679);
+}
+
+.search {
+    width: 245px;
+    height: 32px;
+}
+
+nav {
+    min-height: 65px;
+    font-family: 'Chakra Petch', sans-serif;
+}
